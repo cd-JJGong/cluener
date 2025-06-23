@@ -1,0 +1,4 @@
+pytorch_version/outputs/*
+pytorch_version/datasets/*
+pytorch_version/CLUEdatasets/*
+pytorch_version/prev_trained_model/*

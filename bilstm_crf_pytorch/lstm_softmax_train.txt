@@ -1,0 +1,382 @@
+python run_lstm_crf.py --do_train     --early_stopping_patience 5     --early_stopping_delta 0.0     --visualize_training
+04/10/2025 21:31:06 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-train_bilstm_crf_ner
+336 batches created
+Epoch 1/50
+[Training] 336/336 [==============================] 15.4ms/step  loss: 2.0288  
+04/14/2025 13:56:48 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.5ms/step 
+04/14/2025 13:56:49 - INFO - root -   
+Epoch: 1 -  loss: 0.8615 - eval_loss: 0.7301 - eval_acc: 0.3974 - eval_recall: 0.2640 - eval_f1: 0.3172 
+04/14/2025 13:56:49 - INFO - root -   
+Epoch 1: eval_f1 improved from 0 to 0.3172305886954821
+04/14/2025 13:56:49 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:56:49 - INFO - root -   Subject: name - Acc: 0.3584 - Recall: 0.1742 - F1: 0.2344
+04/14/2025 13:56:49 - INFO - root -   Subject: address - Acc: 0.2477 - Recall: 0.1475 - F1: 0.1849
+04/14/2025 13:56:49 - INFO - root -   Subject: movie - Acc: 0.8571 - Recall: 0.0397 - F1: 0.0759
+04/14/2025 13:56:49 - INFO - root -   Subject: position - Acc: 0.8125 - Recall: 0.3303 - F1: 0.4696
+04/14/2025 13:56:49 - INFO - root -   Subject: organization - Acc: 0.2593 - Recall: 0.4169 - F1: 0.3197
+04/14/2025 13:56:49 - INFO - root -   Subject: company - Acc: 0.4054 - Recall: 0.2381 - F1: 0.3
+04/14/2025 13:56:49 - INFO - root -   Subject: scene - Acc: 0.3286 - Recall: 0.11 - F1: 0.1649
+04/14/2025 13:56:49 - INFO - root -   Subject: government - Acc: 0.5231 - Recall: 0.1377 - F1: 0.2179
+04/14/2025 13:56:49 - INFO - root -   Subject: book - Acc: 0.8621 - Recall: 0.1623 - F1: 0.2732
+04/14/2025 13:56:49 - INFO - root -   Subject: game - Acc: 0.4631 - Recall: 0.6814 - F1: 0.5514
+Epoch 2/50
+[Training] 336/336 [==============================] 13.5ms/step  loss: 1.0966  
+04/14/2025 13:56:53 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.6ms/step 
+04/14/2025 13:56:53 - INFO - root -   
+Epoch: 2 -  loss: 0.4534 - eval_loss: 0.4971 - eval_acc: 0.5515 - eval_recall: 0.4303 - eval_f1: 0.4835 
+04/14/2025 13:56:53 - INFO - root -   
+Epoch 2: eval_f1 improved from 0.3172305886954821 to 0.4834521850429695
+04/14/2025 13:56:53 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:56:53 - INFO - root -   Subject: name - Acc: 0.5979 - Recall: 0.3677 - F1: 0.4554
+04/14/2025 13:56:53 - INFO - root -   Subject: address - Acc: 0.3779 - Recall: 0.2654 - F1: 0.3118
+04/14/2025 13:56:53 - INFO - root -   Subject: movie - Acc: 0.5849 - Recall: 0.2053 - F1: 0.3039
+04/14/2025 13:56:53 - INFO - root -   Subject: position - Acc: 0.7935 - Recall: 0.5058 - F1: 0.6178
+04/14/2025 13:56:53 - INFO - root -   Subject: organization - Acc: 0.5036 - Recall: 0.5695 - F1: 0.5345
+04/14/2025 13:56:53 - INFO - root -   Subject: company - Acc: 0.5258 - Recall: 0.4312 - F1: 0.4738
+04/14/2025 13:56:53 - INFO - root -   Subject: scene - Acc: 0.4118 - Recall: 0.3014 - F1: 0.3481
+04/14/2025 13:56:53 - INFO - root -   Subject: government - Acc: 0.5967 - Recall: 0.4372 - F1: 0.5047
+04/14/2025 13:56:53 - INFO - root -   Subject: book - Acc: 0.7234 - Recall: 0.2208 - F1: 0.3383
+04/14/2025 13:56:53 - INFO - root -   Subject: game - Acc: 0.5435 - Recall: 0.7627 - F1: 0.6347
+Epoch 3/50
+[Training] 336/336 [==============================] 13.6ms/step  loss: 0.4628  
+04/14/2025 13:56:58 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 6.1ms/step 
+04/14/2025 13:56:58 - INFO - root -   
+Epoch: 3 -  loss: 0.3302 - eval_loss: 0.4496 - eval_acc: 0.6054 - eval_recall: 0.4720 - eval_f1: 0.5305 
+04/14/2025 13:56:58 - INFO - root -   
+Epoch 3: eval_f1 improved from 0.4834521850429695 to 0.5304554600329249
+04/14/2025 13:56:58 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:56:58 - INFO - root -   Subject: name - Acc: 0.6536 - Recall: 0.4301 - F1: 0.5188
+04/14/2025 13:56:58 - INFO - root -   Subject: address - Acc: 0.4043 - Recall: 0.2547 - F1: 0.3125
+04/14/2025 13:56:58 - INFO - root -   Subject: movie - Acc: 0.6528 - Recall: 0.3113 - F1: 0.4215
+04/14/2025 13:56:58 - INFO - root -   Subject: position - Acc: 0.8299 - Recall: 0.5635 - F1: 0.6713
+04/14/2025 13:56:58 - INFO - root -   Subject: organization - Acc: 0.6138 - Recall: 0.5804 - F1: 0.5966
+04/14/2025 13:56:58 - INFO - root -   Subject: company - Acc: 0.5232 - Recall: 0.5079 - F1: 0.5154
+04/14/2025 13:56:58 - INFO - root -   Subject: scene - Acc: 0.4855 - Recall: 0.3206 - F1: 0.3862
+04/14/2025 13:56:58 - INFO - root -   Subject: government - Acc: 0.5812 - Recall: 0.4494 - F1: 0.5068
+04/14/2025 13:56:58 - INFO - root -   Subject: book - Acc: 0.8636 - Recall: 0.3701 - F1: 0.5182
+04/14/2025 13:56:58 - INFO - root -   Subject: game - Acc: 0.591 - Recall: 0.7593 - F1: 0.6647
+Epoch 4/50
+[Training] 336/336 [==============================] 13.4ms/step  loss: 0.1677  
+04/14/2025 13:57:03 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.3ms/step 
+04/14/2025 13:57:03 - INFO - root -   
+Epoch: 4 -  loss: 0.2471 - eval_loss: 0.4404 - eval_acc: 0.6008 - eval_recall: 0.5189 - eval_f1: 0.5569 
+04/14/2025 13:57:03 - INFO - root -   
+Epoch 4: eval_f1 improved from 0.5304554600329249 to 0.5568558951965066
+04/14/2025 13:57:03 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:03 - INFO - root -   Subject: name - Acc: 0.659 - Recall: 0.557 - F1: 0.6037
+04/14/2025 13:57:03 - INFO - root -   Subject: address - Acc: 0.4032 - Recall: 0.2735 - F1: 0.3259
+04/14/2025 13:57:03 - INFO - root -   Subject: movie - Acc: 0.5982 - Recall: 0.4437 - F1: 0.5095
+04/14/2025 13:57:03 - INFO - root -   Subject: position - Acc: 0.8038 - Recall: 0.5866 - F1: 0.6782
+04/14/2025 13:57:03 - INFO - root -   Subject: organization - Acc: 0.6916 - Recall: 0.6049 - F1: 0.6453
+04/14/2025 13:57:03 - INFO - root -   Subject: company - Acc: 0.4694 - Recall: 0.5476 - F1: 0.5055
+04/14/2025 13:57:03 - INFO - root -   Subject: scene - Acc: 0.4286 - Recall: 0.4163 - F1: 0.4223
+04/14/2025 13:57:03 - INFO - root -   Subject: government - Acc: 0.5979 - Recall: 0.4696 - F1: 0.5261
+04/14/2025 13:57:03 - INFO - root -   Subject: book - Acc: 0.7927 - Recall: 0.4221 - F1: 0.5508
+04/14/2025 13:57:03 - INFO - root -   Subject: game - Acc: 0.6361 - Recall: 0.7288 - F1: 0.6793
+Epoch 5/50
+[Training] 336/336 [==============================] 14.0ms/step  loss: 0.0859  
+04/14/2025 13:57:08 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.6ms/step 
+04/14/2025 13:57:08 - INFO - root -   
+Epoch: 5 -  loss: 0.1848 - eval_loss: 0.4630 - eval_acc: 0.5874 - eval_recall: 0.5635 - eval_f1: 0.5752 
+04/14/2025 13:57:08 - INFO - root -   
+Epoch 5: eval_f1 improved from 0.5568558951965066 to 0.5751786010965276
+04/14/2025 13:57:08 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:08 - INFO - root -   Subject: name - Acc: 0.5675 - Recall: 0.6151 - F1: 0.5903
+04/14/2025 13:57:08 - INFO - root -   Subject: address - Acc: 0.4345 - Recall: 0.311 - F1: 0.3625
+04/14/2025 13:57:08 - INFO - root -   Subject: movie - Acc: 0.5432 - Recall: 0.5828 - F1: 0.5623
+04/14/2025 13:57:08 - INFO - root -   Subject: position - Acc: 0.7113 - Recall: 0.6259 - F1: 0.6658
+04/14/2025 13:57:08 - INFO - root -   Subject: organization - Acc: 0.738 - Recall: 0.6294 - F1: 0.6794
+04/14/2025 13:57:08 - INFO - root -   Subject: company - Acc: 0.4847 - Recall: 0.5873 - F1: 0.5311
+04/14/2025 13:57:08 - INFO - root -   Subject: scene - Acc: 0.4046 - Recall: 0.5072 - F1: 0.4501
+04/14/2025 13:57:08 - INFO - root -   Subject: government - Acc: 0.6193 - Recall: 0.5466 - F1: 0.5806
+04/14/2025 13:57:08 - INFO - root -   Subject: book - Acc: 0.6733 - Recall: 0.4416 - F1: 0.5333
+04/14/2025 13:57:08 - INFO - root -   Subject: game - Acc: 0.7402 - Recall: 0.7051 - F1: 0.7222
+Epoch 6/50
+[Training] 336/336 [==============================] 14.0ms/step  loss: 0.0698  
+04/14/2025 13:57:13 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.6ms/step 
+04/14/2025 13:57:13 - INFO - root -   
+Epoch: 6 -  loss: 0.1370 - eval_loss: 0.4637 - eval_acc: 0.6030 - eval_recall: 0.5785 - eval_f1: 0.5905 
+04/14/2025 13:57:13 - INFO - root -   
+Epoch 6: eval_f1 improved from 0.5751786010965276 to 0.5904635321481974
+04/14/2025 13:57:13 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:13 - INFO - root -   Subject: name - Acc: 0.6222 - Recall: 0.5914 - F1: 0.6064
+04/14/2025 13:57:13 - INFO - root -   Subject: address - Acc: 0.4449 - Recall: 0.3244 - F1: 0.3752
+04/14/2025 13:57:13 - INFO - root -   Subject: movie - Acc: 0.7021 - Recall: 0.4371 - F1: 0.5388
+04/14/2025 13:57:13 - INFO - root -   Subject: position - Acc: 0.6933 - Recall: 0.6212 - F1: 0.6553
+04/14/2025 13:57:13 - INFO - root -   Subject: organization - Acc: 0.6658 - Recall: 0.6621 - F1: 0.6639
+04/14/2025 13:57:13 - INFO - root -   Subject: company - Acc: 0.56 - Recall: 0.5926 - F1: 0.5758
+04/14/2025 13:57:13 - INFO - root -   Subject: scene - Acc: 0.3903 - Recall: 0.5024 - F1: 0.4393
+04/14/2025 13:57:13 - INFO - root -   Subject: government - Acc: 0.626 - Recall: 0.664 - F1: 0.6444
+04/14/2025 13:57:13 - INFO - root -   Subject: book - Acc: 0.7131 - Recall: 0.5649 - F1: 0.6304
+04/14/2025 13:57:13 - INFO - root -   Subject: game - Acc: 0.6697 - Recall: 0.7559 - F1: 0.7102
+Epoch 7/50
+[Training] 336/336 [==============================] 14.1ms/step  loss: 0.0396  
+04/14/2025 13:57:18 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.5ms/step 
+04/14/2025 13:57:18 - INFO - root -   
+Epoch: 7 -  loss: 0.1072 - eval_loss: 0.4517 - eval_acc: 0.6505 - eval_recall: 0.5514 - eval_f1: 0.5969 
+04/14/2025 13:57:18 - INFO - root -   
+Epoch 7: eval_f1 improved from 0.5904635321481974 to 0.5968992248062015
+04/14/2025 13:57:18 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:18 - INFO - root -   Subject: name - Acc: 0.6907 - Recall: 0.5763 - F1: 0.6284
+04/14/2025 13:57:18 - INFO - root -   Subject: address - Acc: 0.4825 - Recall: 0.3324 - F1: 0.3937
+04/14/2025 13:57:18 - INFO - root -   Subject: movie - Acc: 0.7551 - Recall: 0.4901 - F1: 0.5944
+04/14/2025 13:57:18 - INFO - root -   Subject: position - Acc: 0.7763 - Recall: 0.545 - F1: 0.6404
+04/14/2025 13:57:18 - INFO - root -   Subject: organization - Acc: 0.7327 - Recall: 0.6649 - F1: 0.6971
+04/14/2025 13:57:18 - INFO - root -   Subject: company - Acc: 0.6319 - Recall: 0.5132 - F1: 0.5664
+04/14/2025 13:57:18 - INFO - root -   Subject: scene - Acc: 0.4579 - Recall: 0.4689 - F1: 0.4634
+04/14/2025 13:57:18 - INFO - root -   Subject: government - Acc: 0.5939 - Recall: 0.6275 - F1: 0.6102
+04/14/2025 13:57:18 - INFO - root -   Subject: book - Acc: 0.7451 - Recall: 0.4935 - F1: 0.5938
+04/14/2025 13:57:18 - INFO - root -   Subject: game - Acc: 0.6618 - Recall: 0.7627 - F1: 0.7087
+Epoch 8/50
+[Training] 336/336 [==============================] 14.0ms/step  loss: 0.0162  
+04/14/2025 13:57:23 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.6ms/step 
+04/14/2025 13:57:23 - INFO - root -   
+Epoch: 8 -  loss: 0.0733 - eval_loss: 0.4765 - eval_acc: 0.6406 - eval_recall: 0.5680 - eval_f1: 0.6021 
+04/14/2025 13:57:23 - INFO - root -   
+Epoch 8: eval_f1 improved from 0.5968992248062015 to 0.6021394064872326
+04/14/2025 13:57:23 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:23 - INFO - root -   Subject: name - Acc: 0.6525 - Recall: 0.6581 - F1: 0.6552
+04/14/2025 13:57:23 - INFO - root -   Subject: address - Acc: 0.5146 - Recall: 0.2842 - F1: 0.3661
+04/14/2025 13:57:23 - INFO - root -   Subject: movie - Acc: 0.6439 - Recall: 0.5629 - F1: 0.6007
+04/14/2025 13:57:23 - INFO - root -   Subject: position - Acc: 0.7557 - Recall: 0.6074 - F1: 0.6735
+04/14/2025 13:57:23 - INFO - root -   Subject: organization - Acc: 0.7134 - Recall: 0.6104 - F1: 0.6579
+04/14/2025 13:57:23 - INFO - root -   Subject: company - Acc: 0.6083 - Recall: 0.5794 - F1: 0.5935
+04/14/2025 13:57:23 - INFO - root -   Subject: scene - Acc: 0.4612 - Recall: 0.4833 - F1: 0.472
+04/14/2025 13:57:23 - INFO - root -   Subject: government - Acc: 0.6375 - Recall: 0.6194 - F1: 0.6283
+04/14/2025 13:57:23 - INFO - root -   Subject: book - Acc: 0.7722 - Recall: 0.3961 - F1: 0.5236
+04/14/2025 13:57:23 - INFO - root -   Subject: game - Acc: 0.6359 - Recall: 0.7695 - F1: 0.6963
+Epoch 9/50
+[Training] 336/336 [==============================] 14.0ms/step  loss: 0.0127  
+04/14/2025 13:57:28 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.3ms/step 
+04/14/2025 13:57:28 - INFO - root -   
+Epoch: 9 -  loss: 0.0518 - eval_loss: 0.4887 - eval_acc: 0.6388 - eval_recall: 0.5918 - eval_f1: 0.6144 
+04/14/2025 13:57:28 - INFO - root -   
+Epoch 9: eval_f1 improved from 0.6021394064872326 to 0.6143967556606962
+04/14/2025 13:57:28 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:28 - INFO - root -   Subject: name - Acc: 0.6975 - Recall: 0.6495 - F1: 0.6726
+04/14/2025 13:57:28 - INFO - root -   Subject: address - Acc: 0.4895 - Recall: 0.3137 - F1: 0.3824
+04/14/2025 13:57:28 - INFO - root -   Subject: movie - Acc: 0.526 - Recall: 0.5364 - F1: 0.5311
+04/14/2025 13:57:28 - INFO - root -   Subject: position - Acc: 0.7669 - Recall: 0.6305 - F1: 0.692
+04/14/2025 13:57:28 - INFO - root -   Subject: organization - Acc: 0.694 - Recall: 0.6921 - F1: 0.693
+04/14/2025 13:57:28 - INFO - root -   Subject: company - Acc: 0.623 - Recall: 0.6164 - F1: 0.6197
+04/14/2025 13:57:28 - INFO - root -   Subject: scene - Acc: 0.4542 - Recall: 0.5455 - F1: 0.4957
+04/14/2025 13:57:28 - INFO - root -   Subject: government - Acc: 0.6305 - Recall: 0.6356 - F1: 0.6331
+04/14/2025 13:57:28 - INFO - root -   Subject: book - Acc: 0.7887 - Recall: 0.3636 - F1: 0.4978
+04/14/2025 13:57:28 - INFO - root -   Subject: game - Acc: 0.6544 - Recall: 0.7831 - F1: 0.713
+Epoch 10/50
+[Training] 336/336 [==============================] 14.2ms/step  loss: 0.0083  
+04/14/2025 13:57:33 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.2ms/step 
+04/14/2025 13:57:33 - INFO - root -   
+Epoch: 10 -  loss: 0.0348 - eval_loss: 0.5470 - eval_acc: 0.6460 - eval_recall: 0.5602 - eval_f1: 0.6001 
+Eval Entity Score: 
+04/14/2025 13:57:33 - INFO - root -   Subject: name - Acc: 0.7068 - Recall: 0.5806 - F1: 0.6375
+04/14/2025 13:57:33 - INFO - root -   Subject: address - Acc: 0.4612 - Recall: 0.3029 - F1: 0.3657
+04/14/2025 13:57:33 - INFO - root -   Subject: movie - Acc: 0.6471 - Recall: 0.5099 - F1: 0.5704
+04/14/2025 13:57:33 - INFO - root -   Subject: position - Acc: 0.75 - Recall: 0.582 - F1: 0.6554
+04/14/2025 13:57:33 - INFO - root -   Subject: organization - Acc: 0.6632 - Recall: 0.6975 - F1: 0.6799
+04/14/2025 13:57:33 - INFO - root -   Subject: company - Acc: 0.6299 - Recall: 0.5899 - F1: 0.6093
+04/14/2025 13:57:33 - INFO - root -   Subject: scene - Acc: 0.5222 - Recall: 0.4498 - F1: 0.4833
+04/14/2025 13:57:33 - INFO - root -   Subject: government - Acc: 0.632 - Recall: 0.5911 - F1: 0.6109
+04/14/2025 13:57:33 - INFO - root -   Subject: book - Acc: 0.7606 - Recall: 0.3506 - F1: 0.48
+04/14/2025 13:57:33 - INFO - root -   Subject: game - Acc: 0.6556 - Recall: 0.8 - F1: 0.7206
+Epoch 11/50
+[Training] 336/336 [==============================] 14.0ms/step  loss: 0.0094  
+04/14/2025 13:57:38 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.5ms/step 
+04/14/2025 13:57:38 - INFO - root -   
+Epoch: 11 -  loss: 0.0235 - eval_loss: 0.5632 - eval_acc: 0.6547 - eval_recall: 0.5560 - eval_f1: 0.6013 
+Eval Entity Score: 
+04/14/2025 13:57:38 - INFO - root -   Subject: name - Acc: 0.7181 - Recall: 0.5806 - F1: 0.6421
+04/14/2025 13:57:38 - INFO - root -   Subject: address - Acc: 0.4723 - Recall: 0.3432 - F1: 0.3975
+04/14/2025 13:57:38 - INFO - root -   Subject: movie - Acc: 0.6707 - Recall: 0.3642 - F1: 0.4721
+04/14/2025 13:57:38 - INFO - root -   Subject: position - Acc: 0.7745 - Recall: 0.6028 - F1: 0.6779
+04/14/2025 13:57:38 - INFO - root -   Subject: organization - Acc: 0.6989 - Recall: 0.6703 - F1: 0.6843
+04/14/2025 13:57:38 - INFO - root -   Subject: company - Acc: 0.6418 - Recall: 0.5926 - F1: 0.6162
+04/14/2025 13:57:38 - INFO - root -   Subject: scene - Acc: 0.5366 - Recall: 0.4211 - F1: 0.4718
+04/14/2025 13:57:38 - INFO - root -   Subject: government - Acc: 0.613 - Recall: 0.5709 - F1: 0.5912
+04/14/2025 13:57:38 - INFO - root -   Subject: book - Acc: 0.7619 - Recall: 0.4156 - F1: 0.5378
+04/14/2025 13:57:38 - INFO - root -   Subject: game - Acc: 0.6346 - Recall: 0.7831 - F1: 0.7011
+Epoch 12/50
+[Training] 336/336 [==============================] 13.9ms/step  loss: 0.0037  
+04/14/2025 13:57:43 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.7ms/step 
+04/14/2025 13:57:43 - INFO - root -   
+Epoch: 12 -  loss: 0.0180 - eval_loss: 0.5504 - eval_acc: 0.6761 - eval_recall: 0.5625 - eval_f1: 0.6141 
+Eval Entity Score: 
+04/14/2025 13:57:43 - INFO - root -   Subject: name - Acc: 0.7195 - Recall: 0.5957 - F1: 0.6518
+04/14/2025 13:57:43 - INFO - root -   Subject: address - Acc: 0.4812 - Recall: 0.3432 - F1: 0.4006
+04/14/2025 13:57:43 - INFO - root -   Subject: movie - Acc: 0.6231 - Recall: 0.5364 - F1: 0.5765
+04/14/2025 13:57:43 - INFO - root -   Subject: position - Acc: 0.7822 - Recall: 0.5889 - F1: 0.6719
+04/14/2025 13:57:43 - INFO - root -   Subject: organization - Acc: 0.7409 - Recall: 0.6621 - F1: 0.6993
+04/14/2025 13:57:43 - INFO - root -   Subject: company - Acc: 0.6728 - Recall: 0.5767 - F1: 0.6211
+04/14/2025 13:57:43 - INFO - root -   Subject: scene - Acc: 0.5028 - Recall: 0.4354 - F1: 0.4667
+04/14/2025 13:57:43 - INFO - root -   Subject: government - Acc: 0.6522 - Recall: 0.5466 - F1: 0.5947
+04/14/2025 13:57:43 - INFO - root -   Subject: book - Acc: 0.8081 - Recall: 0.5195 - F1: 0.6324
+04/14/2025 13:57:43 - INFO - root -   Subject: game - Acc: 0.7097 - Recall: 0.7458 - F1: 0.7273
+Epoch 13/50
+[Training] 336/336 [==============================] 13.7ms/step  loss: 0.0032  
+04/14/2025 13:57:48 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.4ms/step 
+04/14/2025 13:57:48 - INFO - root -   
+Epoch: 13 -  loss: 0.0147 - eval_loss: 0.5796 - eval_acc: 0.6568 - eval_recall: 0.5612 - eval_f1: 0.6052 
+
+Epoch 00013: reducing learning rate to 0.0005.
+Eval Entity Score: 
+04/14/2025 13:57:48 - INFO - root -   Subject: name - Acc: 0.6838 - Recall: 0.6 - F1: 0.6392
+04/14/2025 13:57:48 - INFO - root -   Subject: address - Acc: 0.491 - Recall: 0.3673 - F1: 0.4202
+04/14/2025 13:57:48 - INFO - root -   Subject: movie - Acc: 0.6087 - Recall: 0.4636 - F1: 0.5263
+04/14/2025 13:57:48 - INFO - root -   Subject: position - Acc: 0.7875 - Recall: 0.582 - F1: 0.6693
+04/14/2025 13:57:48 - INFO - root -   Subject: organization - Acc: 0.6952 - Recall: 0.7084 - F1: 0.7018
+04/14/2025 13:57:48 - INFO - root -   Subject: company - Acc: 0.633 - Recall: 0.5476 - F1: 0.5872
+04/14/2025 13:57:48 - INFO - root -   Subject: scene - Acc: 0.488 - Recall: 0.3876 - F1: 0.432
+04/14/2025 13:57:48 - INFO - root -   Subject: government - Acc: 0.6602 - Recall: 0.5506 - F1: 0.6004
+04/14/2025 13:57:48 - INFO - root -   Subject: book - Acc: 0.7339 - Recall: 0.5195 - F1: 0.6084
+04/14/2025 13:57:48 - INFO - root -   Subject: game - Acc: 0.6916 - Recall: 0.7525 - F1: 0.7208
+Epoch 14/50
+[Training] 336/336 [==============================] 13.9ms/step  loss: 0.0021  
+04/14/2025 13:57:53 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.3ms/step 
+04/14/2025 13:57:53 - INFO - root -   
+Epoch: 14 -  loss: 0.0093 - eval_loss: 0.5457 - eval_acc: 0.6735 - eval_recall: 0.5964 - eval_f1: 0.6326 
+04/14/2025 13:57:53 - INFO - root -   
+Epoch 14: eval_f1 improved from 0.6143967556606962 to 0.6325966850828729
+04/14/2025 13:57:53 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:53 - INFO - root -   Subject: name - Acc: 0.7077 - Recall: 0.6559 - F1: 0.6808
+04/14/2025 13:57:53 - INFO - root -   Subject: address - Acc: 0.4816 - Recall: 0.3861 - F1: 0.4286
+04/14/2025 13:57:53 - INFO - root -   Subject: movie - Acc: 0.6061 - Recall: 0.5298 - F1: 0.5654
+04/14/2025 13:57:53 - INFO - root -   Subject: position - Acc: 0.7775 - Recall: 0.6212 - F1: 0.6906
+04/14/2025 13:57:53 - INFO - root -   Subject: organization - Acc: 0.7378 - Recall: 0.6975 - F1: 0.7171
+04/14/2025 13:57:53 - INFO - root -   Subject: company - Acc: 0.6439 - Recall: 0.5979 - F1: 0.62
+04/14/2025 13:57:53 - INFO - root -   Subject: scene - Acc: 0.574 - Recall: 0.4641 - F1: 0.5132
+04/14/2025 13:57:53 - INFO - root -   Subject: government - Acc: 0.6457 - Recall: 0.583 - F1: 0.6128
+04/14/2025 13:57:53 - INFO - root -   Subject: book - Acc: 0.7436 - Recall: 0.5649 - F1: 0.6421
+04/14/2025 13:57:53 - INFO - root -   Subject: game - Acc: 0.7344 - Recall: 0.7593 - F1: 0.7467
+Epoch 15/50
+[Training] 336/336 [==============================] 13.9ms/step  loss: 0.0023  
+04/14/2025 13:57:58 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.6ms/step 
+04/14/2025 13:57:58 - INFO - root -   
+Epoch: 15 -  loss: 0.0046 - eval_loss: 0.5686 - eval_acc: 0.6886 - eval_recall: 0.5866 - eval_f1: 0.6335 
+04/14/2025 13:57:58 - INFO - root -   
+Epoch 15: eval_f1 improved from 0.6325966850828729 to 0.6335032518896115
+04/14/2025 13:57:58 - INFO - root -   save model to disk.
+Eval Entity Score: 
+04/14/2025 13:57:58 - INFO - root -   Subject: name - Acc: 0.7342 - Recall: 0.6237 - F1: 0.6744
+04/14/2025 13:57:58 - INFO - root -   Subject: address - Acc: 0.5052 - Recall: 0.3914 - F1: 0.4411
+04/14/2025 13:57:58 - INFO - root -   Subject: movie - Acc: 0.6142 - Recall: 0.5166 - F1: 0.5612
+04/14/2025 13:57:58 - INFO - root -   Subject: position - Acc: 0.787 - Recall: 0.6143 - F1: 0.69
+04/14/2025 13:57:58 - INFO - root -   Subject: organization - Acc: 0.7795 - Recall: 0.6839 - F1: 0.7286
+04/14/2025 13:57:58 - INFO - root -   Subject: company - Acc: 0.6481 - Recall: 0.5847 - F1: 0.6147
+04/14/2025 13:57:58 - INFO - root -   Subject: scene - Acc: 0.5548 - Recall: 0.4115 - F1: 0.4725
+04/14/2025 13:57:58 - INFO - root -   Subject: government - Acc: 0.6681 - Recall: 0.6194 - F1: 0.6429
+04/14/2025 13:57:58 - INFO - root -   Subject: book - Acc: 0.7521 - Recall: 0.5714 - F1: 0.6494
+04/14/2025 13:57:58 - INFO - root -   Subject: game - Acc: 0.7336 - Recall: 0.7559 - F1: 0.7446
+Epoch 16/50
+[Training] 336/336 [==============================] 13.9ms/step  loss: 0.0015  
+04/14/2025 13:58:02 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.6ms/step 
+04/14/2025 13:58:03 - INFO - root -   
+Epoch: 16 -  loss: 0.0031 - eval_loss: 0.5859 - eval_acc: 0.6860 - eval_recall: 0.5882 - eval_f1: 0.6334 
+Eval Entity Score: 
+04/14/2025 13:58:03 - INFO - root -   Subject: name - Acc: 0.716 - Recall: 0.6237 - F1: 0.6667
+04/14/2025 13:58:03 - INFO - root -   Subject: address - Acc: 0.5296 - Recall: 0.4075 - F1: 0.4606
+04/14/2025 13:58:03 - INFO - root -   Subject: movie - Acc: 0.6063 - Recall: 0.5099 - F1: 0.554
+04/14/2025 13:58:03 - INFO - root -   Subject: position - Acc: 0.7889 - Recall: 0.6212 - F1: 0.6951
+04/14/2025 13:58:03 - INFO - root -   Subject: organization - Acc: 0.7806 - Recall: 0.6785 - F1: 0.7259
+04/14/2025 13:58:03 - INFO - root -   Subject: company - Acc: 0.6512 - Recall: 0.5926 - F1: 0.6205
+04/14/2025 13:58:03 - INFO - root -   Subject: scene - Acc: 0.5613 - Recall: 0.4163 - F1: 0.478
+04/14/2025 13:58:03 - INFO - root -   Subject: government - Acc: 0.6422 - Recall: 0.6032 - F1: 0.6221
+04/14/2025 13:58:03 - INFO - root -   Subject: book - Acc: 0.7458 - Recall: 0.5714 - F1: 0.6471
+04/14/2025 13:58:03 - INFO - root -   Subject: game - Acc: 0.7255 - Recall: 0.7525 - F1: 0.7388
+Epoch 17/50
+[Training] 336/336 [==============================] 14.1ms/step  loss: 0.0013  
+04/14/2025 13:58:07 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.3ms/step 
+04/14/2025 13:58:08 - INFO - root -   
+Epoch: 17 -  loss: 0.0024 - eval_loss: 0.6027 - eval_acc: 0.6828 - eval_recall: 0.5843 - eval_f1: 0.6297 
+Eval Entity Score: 
+04/14/2025 13:58:08 - INFO - root -   Subject: name - Acc: 0.7196 - Recall: 0.6237 - F1: 0.6682
+04/14/2025 13:58:08 - INFO - root -   Subject: address - Acc: 0.488 - Recall: 0.3807 - F1: 0.4277
+04/14/2025 13:58:08 - INFO - root -   Subject: movie - Acc: 0.6016 - Recall: 0.5099 - F1: 0.552
+04/14/2025 13:58:08 - INFO - root -   Subject: position - Acc: 0.8 - Recall: 0.6097 - F1: 0.692
+04/14/2025 13:58:08 - INFO - root -   Subject: organization - Acc: 0.7706 - Recall: 0.6866 - F1: 0.7262
+04/14/2025 13:58:08 - INFO - root -   Subject: company - Acc: 0.654 - Recall: 0.5899 - F1: 0.6203
+04/14/2025 13:58:08 - INFO - root -   Subject: scene - Acc: 0.5535 - Recall: 0.4211 - F1: 0.4783
+04/14/2025 13:58:08 - INFO - root -   Subject: government - Acc: 0.6507 - Recall: 0.6032 - F1: 0.6261
+04/14/2025 13:58:08 - INFO - root -   Subject: book - Acc: 0.7373 - Recall: 0.5649 - F1: 0.6397
+04/14/2025 13:58:08 - INFO - root -   Subject: game - Acc: 0.736 - Recall: 0.7559 - F1: 0.7458
+Epoch 18/50
+[Training] 336/336 [==============================] 14.0ms/step  loss: 0.0010  
+04/14/2025 13:58:12 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 7.3ms/step 
+04/14/2025 13:58:13 - INFO - root -   
+Epoch: 18 -  loss: 0.0020 - eval_loss: 0.6188 - eval_acc: 0.6851 - eval_recall: 0.5856 - eval_f1: 0.6314 
+Eval Entity Score: 
+04/14/2025 13:58:13 - INFO - root -   Subject: name - Acc: 0.7261 - Recall: 0.6215 - F1: 0.6698
+04/14/2025 13:58:13 - INFO - root -   Subject: address - Acc: 0.5211 - Recall: 0.3968 - F1: 0.4505
+04/14/2025 13:58:13 - INFO - root -   Subject: movie - Acc: 0.619 - Recall: 0.5166 - F1: 0.5632
+04/14/2025 13:58:13 - INFO - root -   Subject: position - Acc: 0.783 - Recall: 0.6166 - F1: 0.6899
+04/14/2025 13:58:13 - INFO - root -   Subject: organization - Acc: 0.7764 - Recall: 0.6812 - F1: 0.7257
+04/14/2025 13:58:13 - INFO - root -   Subject: company - Acc: 0.6579 - Recall: 0.5952 - F1: 0.625
+04/14/2025 13:58:13 - INFO - root -   Subject: scene - Acc: 0.5316 - Recall: 0.4019 - F1: 0.4578
+04/14/2025 13:58:13 - INFO - root -   Subject: government - Acc: 0.6422 - Recall: 0.6032 - F1: 0.6221
+04/14/2025 13:58:13 - INFO - root -   Subject: book - Acc: 0.725 - Recall: 0.5649 - F1: 0.635
+04/14/2025 13:58:13 - INFO - root -   Subject: game - Acc: 0.7327 - Recall: 0.7525 - F1: 0.7425
+Epoch 19/50
+[Training] 336/336 [==============================] 15.3ms/step  loss: 0.0011  
+04/14/2025 13:58:18 - INFO - root -   Loading features from cached file dataset/cluener/cached_crf-dev_bilstm_crf_ner
+42 batches created
+[Evaluating] 42/42 [==============================] 5.7ms/step 
+04/14/2025 13:58:18 - INFO - root -   
+Epoch: 19 -  loss: 0.0018 - eval_loss: 0.6360 - eval_acc: 0.6774 - eval_recall: 0.5830 - eval_f1: 0.6267 
+
+Epoch 00019: reducing learning rate to 0.00025.
+Eval Entity Score: 
+04/14/2025 13:58:18 - INFO - root -   Subject: name - Acc: 0.7118 - Recall: 0.6215 - F1: 0.6636
+04/14/2025 13:58:18 - INFO - root -   Subject: address - Acc: 0.483 - Recall: 0.3807 - F1: 0.4258
+04/14/2025 13:58:18 - INFO - root -   Subject: movie - Acc: 0.6341 - Recall: 0.5166 - F1: 0.5693
+04/14/2025 13:58:18 - INFO - root -   Subject: position - Acc: 0.7804 - Recall: 0.6074 - F1: 0.6831
+04/14/2025 13:58:18 - INFO - root -   Subject: organization - Acc: 0.768 - Recall: 0.6676 - F1: 0.7143
+04/14/2025 13:58:18 - INFO - root -   Subject: company - Acc: 0.6637 - Recall: 0.5952 - F1: 0.6276
+04/14/2025 13:58:18 - INFO - root -   Subject: scene - Acc: 0.5478 - Recall: 0.4115 - F1: 0.4699
+04/14/2025 13:58:18 - INFO - root -   Subject: government - Acc: 0.6537 - Recall: 0.6113 - F1: 0.6318
+04/14/2025 13:58:18 - INFO - root -   Subject: book - Acc: 0.7213 - Recall: 0.5714 - F1: 0.6377
+04/14/2025 13:58:18 - INFO - root -   Subject: game - Acc: 0.7089 - Recall: 0.7593 - F1: 0.7332
